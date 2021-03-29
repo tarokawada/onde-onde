@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r make-promises-safe index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fastify": "^3.14.1",
+    "make-promises-safe": "^5.1.0",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2",
+    "nodemon": "^2.0.7"
+  }
+}
